@@ -1221,7 +1221,8 @@ h1, h2, h3, h4, h5, h6,
 .exp-company-logo img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    padding: 4px;
     border-radius: 0;
 }
 .exp-logo-fallback {
@@ -2829,7 +2830,7 @@ body, p, li, span, div, h1, h2, h3, h4, h5, h6 {
     font-size: 7px;
     font-weight: 800;
     letter-spacing: 0.18em;
-    color: #1565c0;
+    color: #2e2e38;
     text-transform: uppercase;
     writing-mode: vertical-rl;
     text-orientation: mixed;
@@ -2876,7 +2877,7 @@ body, p, li, span, div, h1, h2, h3, h4, h5, h6 {
 /* Top colored bar */
 .hero-id-topbar {
     width: 100%;
-    background: linear-gradient(135deg, #1565c0 0%, #0d47a1 100%);
+    background: linear-gradient(135deg, #ffe600 0%, #f0d800 100%);
     padding: 10px 14px 10px;
     display: flex;
     align-items: center;
@@ -2891,21 +2892,21 @@ body, p, li, span, div, h1, h2, h3, h4, h5, h6 {
 }
 .hero-id-logo {
     flex-shrink: 0;
-    width: 22px;
+    width: 28px;
     height: 22px;
     object-fit: contain;
-    filter: brightness(0) invert(1);
+    filter: none;
 }
 .hero-id-org {
     font-family: 'Space Grotesk', sans-serif;
     font-size: clamp(7px, 0.7vw, 9px);
     font-weight: 600;
     letter-spacing: 0.1em;
-    color: rgba(255,255,255,0.8);
+    color: rgba(46,46,56,0.85);
     text-transform: uppercase;
 }
 .hero-id-nfc {
-    color: rgba(255,255,255,0.5);
+    color: rgba(46,46,56,0.45);
     display: flex;
     align-items: center;
 }
@@ -2916,10 +2917,10 @@ body, p, li, span, div, h1, h2, h3, h4, h5, h6 {
     width: clamp(72px, 8vw, 96px);
     height: clamp(72px, 8vw, 96px);
     border-radius: 50%;
-    border: 3px solid #1565c0;
+    border: 3px solid #ffe600;
     overflow: hidden;
     flex-shrink: 0;
-    box-shadow: 0 4px 14px rgba(21,101,192,0.3);
+    box-shadow: 0 4px 14px rgba(255,230,0,0.4);
 }
 .hero-id-photo {
     width: 100%;
@@ -2984,7 +2985,7 @@ body, p, li, span, div, h1, h2, h3, h4, h5, h6 {
 /* Footer bar with barcode */
 .hero-id-footer-bar {
     width: 100%;
-    background: linear-gradient(135deg, #1565c0 0%, #0d47a1 100%);
+    background: linear-gradient(135deg, #2e2e38 0%, #1a1a24 100%);
     padding: 10px 14px 8px;
     display: flex;
     flex-direction: column;
@@ -3054,8 +3055,8 @@ body, p, li, span, div, h1, h2, h3, h4, h5, h6 {
     font-family: 'Space Grotesk', sans-serif;
     font-size: clamp(7.5px, 0.7vw, 9.5px);
     font-weight: 600;
-    background: #1565c0;
-    color: #fff;
+    background: #2e2e38;
+    color: #ffe600;
     border-radius: 4px;
     padding: 3px 8px;
     letter-spacing: 0.04em;
